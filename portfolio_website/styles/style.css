@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+button {
+    color: white;
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+}
+
+nav div ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+
+nav div ul li a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    color: black;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.search-field{
+    display: flex;
+    gap: 35px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-section-left h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.hero-section-left p{
+    font-weight: 500;
+}
+
+.hero-section-left p span{
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+    font-size: 1rem;
+}
+
+.hero-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-section-right img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    font-weight: 900;
+}
+
+footer ul {
+    display: flex;
+    gap: 0px 25px;
+}
+
+footer ul li {
+    font-size: 25px;
+}
