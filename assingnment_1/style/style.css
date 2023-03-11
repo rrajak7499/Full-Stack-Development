@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.446)),
-    url(/Full-Stack-Development/blob/main/assingnment_1/src/background.png);
+    url('https://github.com/rrajak8806/Full-Stack-Development/blob/main/assingnment_1/src/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
